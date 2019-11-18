@@ -19,7 +19,7 @@ public class DAO
         server = "localhost";
         database = "plagcheck";
         uid = "root";
-        password = "#Team4T AkiNatsu";
+        password = "root";
         string connectionString;
         connectionString = "SERVER=" + server + ";" + "DATABASE=" +
         database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
