@@ -22,7 +22,7 @@ It uses the open-source project [JPlag](https://github.com/jplag/jplag) as the a
   - The password for the "root" user is "root" (as stated in PlagCheck_Server/DAO.cs).
   - The localhost instance (localhost:3306) should be online, and has a schema named "plagcheck" (as stated in PlagCheck_Server/DAO.cs).
   - If you want to use another database server password or schema name, edit in the source code and build a seperate server-side solution (Visual Studio 2019 required).
-- Import the content from the file "plagcheck_schema.sql" in the repository to initialize the schema. This will create all the needed table, along with a few example problems and solutions.
+- Import the content from the [schema file](https://gist.github.com/NTI-Akikaze/189e938f79065cd954c66d8db0d0786f) to initialize the schema. This will create all the needed table, along with a few example problems and solutions.
 - Extract the archive, and run the "setup.exe" file from the decompressed folder.
 
 2. Client-side
